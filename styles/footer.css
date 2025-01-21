@@ -1,0 +1,60 @@
+.footer-container{
+    padding: 6rem 19rem 6rem 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-rodape{
+    font-weight: var(--fw-3);
+    font-size: 2.25rem;
+    color: var(--azul-escuro);
+    line-height: 2.75rem;
+    text-align: center;
+}
+
+.texto-rodape{
+    font-weight: var(--fw-1);
+    font-size: 1.25rem;
+    color: var(--cinza);
+    line-height: 1.875rem;
+    text-align: center;
+    padding: 1.25rem 0 2.5rem 0;
+}
+
+.footer-navegacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    padding: 0.75rem 0.875rem 0.75rem 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid var(--borda);
+    margin-right: 1rem;
+    color: var(--azul-escuro);
+}
+
+.navbar-botoes-cadastrar-footer{
+    text-decoration: none;
+    color: var(--cor-de-fundo);
+    padding: 0.75rem 1.25rem;
+    background-color: var(--vinho);
+    border-radius: 0.5rem;
+}
+
+.footer__copywight{
+    font-weight: var(--fw-1);
+    font-size: 1rem;
+    color: var(--cinza);
+    line-height: 1.5rem;
+    margin-top: 2rem;
+
+}

@@ -1,0 +1,33 @@
+.container__titulo{
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Inter";
+    font-weight: var(--fw-2);
+}
+.lista__paginas{
+    margin-right: 200px;
+}
+.paginas{
+    font-weight: var(--fw-2);
+    text-decoration: none;
+    color: var(--cinza);
+    margin: 0 8px 0 8px;
+}
+
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    background: none;
+    color: var(--text-color);
+    font-size: 0.9rem;
+  }
+  
+  button#signUp {
+    background-color: var(--vinho);
+    color: var(--cor-de-fundo);
+  }
